@@ -1,0 +1,80 @@
+*{
+	box-sizing:border-box ;
+}
+body{
+	margin: 15px;
+}
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
+div
+{
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	position: relative;
+	background-color: rgb(150,150,255);
+	padding: 8px;
+}
+p
+{
+	width: 70px;
+	text-align: center;
+	font-style:oblique ;
+	font-weight:bold ;
+}
+p.receipt{
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	margin: 0px;
+	padding: 2px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#chicken{
+	background-color:lightgray ;
+}
+#beef{
+	background-color:lightpink ;
+}
+#sushi
+{
+	background-color: lightsalmon;
+}
+.row{
+	float: left;
+	width: 33.33%;
+	border-width: 0px;
+	background-color: transparent;
+	padding: 10px;
+}
+@media (min-width: 992px)
+{
+	.col-lg
+	{
+		float: left;
+		width: 33.33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-md-1,.col-md-2
+	{
+		float: left;
+	}
+	.col-mid-1{
+		float: left;
+		width: 100%;
+	}
+	.col-mid-2{
+		float: left;
+		width: 50%;
+	}
+}
+@media (max-width: 767px)
+{
+	/* do nothing*/
+}
